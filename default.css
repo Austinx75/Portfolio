@@ -382,20 +382,18 @@ a.button1:hover{
 #preview-shadow-contact{
     margin: 50px;
     background-color: var(--previewShadow);
-    width: 300px;
+    width: 200px;
     height: 130px;
     padding-left: 30px;
     padding-top: 30px;
-    display: block;
 }
 
 #preview-contact{
-    width: 300px;
+    width: 200px;
     border: 1.5px solid #17a2b8;
     background-color: var(--previewBg);
     padding: 20px;
     position: relative;
-    display: block;
 }
 
 .nav-wrapper-contact{
