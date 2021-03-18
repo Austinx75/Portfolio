@@ -474,7 +474,8 @@ a.button1:hover{
     text-align:center;
     margin-top: 20px;
     padding-top:10px;
-    padding-bottom: 15px;;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
     margin-left: 40px;
     margin-right: 40px;
     background-color: var(--previewShadow);
