@@ -15,7 +15,7 @@
             $body .= "Message: ".$contactMessage. "\r\n";
             $headers = "Reply to: $contactEmail \r\n";
             
-            mail($to, $contactSubject, $body, $headers) or die("Failure");
+            mail($to, $contactSubject, $body, $headers);
             header("Location: index.html");
     }
 
