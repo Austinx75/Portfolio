@@ -331,7 +331,7 @@ h6 {font-size: 16px;}
 
 
 a.button{
-    width: 150px;
+    width: 50%;
     display:inline-block;
     padding:0.3em 1.2em;
     margin:auto;
@@ -366,12 +366,81 @@ a.button1:hover{
     background-color:#4095c6;
 }
 
+.contact{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
 
 #skills{
     display: flex;
     justify-content: space-evenly;
     background-color: var(--previewShadow);
 }
+
+#preview-shadow-contact{
+    margin: 50px;
+    background-color: var(--previewShadow);
+    width: 300px;
+    height: 130px;
+    padding-left: 30px;
+    padding-top: 30px;
+    display: block;
+}
+
+#preview-contact{
+    width: 300px;
+    border: 1.5px solid #17a2b8;
+    background-color: var(--previewBg);
+    padding: 20px;
+    position: relative;
+    display: block;
+}
+
+.nav-wrapper-contact{
+    border-radius: 5px 5px 0 0;
+    grid-area: nav-wrapper-contact;
+    border-bottom:2px solid var(--borderColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--mainColor);
+    /*border: 1px dashed lightcoral;*/
+}
+
+.contact-wrapper{
+    background-color: var(--secondaryColor);
+    border:1px solid var(--borderColor);
+    border-radius: 5px 5px 0 0;
+    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    display: grid;
+    align-content: center;
+    grid-template-columns: 1fr 1fr;
+    /*grid-template-rows: 3em 30em;*/
+    grid-template-areas: 
+        'nav-wrapper-contact nav-wrapper-contact'
+        'left-column right-column'
+    ;
+}
+
+#contact-image{
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+#contact-image:hover{
+    height: 215px;
+    width: 215px;
+}
+
 
 
 /* helps with shrinking and maximizing size */
@@ -385,6 +454,14 @@ a.button1:hover{
         grid-template-columns: 1fr;
         grid-template-areas: 
             'nav-wrapper'
+            'left-column'
+            'right-column'
+        ;
+    }
+    .contact-wrapper{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            'nav-wrapper-contact'
             'left-column'
             'right-column'
         ;
