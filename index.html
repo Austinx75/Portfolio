@@ -215,7 +215,22 @@
         
         <section class="s1">
             <div class="main-container">
-                <div class="contact-wrapper">
+                <form style="margin-top:50px;" id="contact-form" method="post" action="contact.php">
+                    <label>Name</label>
+                    <input class="input-field" type="text" name="name">
+
+                    <label>Subject</label>
+                    <input class="input-field" type="text" name="subject">
+
+                    <label>Email</label>
+                    <input class="input-field" type="text" name="email">
+
+                    <label>Message</label>
+                    <textarea class="input-field" name="message"></textarea>
+
+                    <input id="submit-btn" type="submit" value="Send">
+                </form>
+                <!--<div class="contact-wrapper">
                     <div class="nav-wrapper-contact">
                         <h3 style="text-align: center;">Contact Information</h3>
                     </div>
@@ -235,7 +250,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
             </div>
         </section>
         <script type="text/JavaScript" src="script.js"></script>
