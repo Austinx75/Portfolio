@@ -384,7 +384,10 @@ a.button1:hover{
 
 #interest{
     text-align: left;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
     display: flex;
     justify-content: space-evenly;
     background-color: var(--previewShadow);
@@ -484,6 +487,8 @@ a.button1:hover{
     padding-top:10px;
     padding-bottom: 15px;
     margin-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
     margin-left: 40px;
     margin-right: 40px;
     background-color: var(--previewShadow);
