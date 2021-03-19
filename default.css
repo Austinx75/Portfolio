@@ -353,7 +353,8 @@ a.button:hover{
     background-color:#4095c6;
 }
 a.button1{
-    width: 200px;
+    text-align: center;
+    width: 175px;
     padding:0.3em 1.2em;
     margin-top: 15px;
     display:inline-block;
@@ -377,6 +378,13 @@ a.button1:hover{
 
 
 #skills{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#interest{
+    text-align: left;
+    padding: 20px;
     display: flex;
     justify-content: space-evenly;
     background-color: var(--previewShadow);
