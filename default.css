@@ -186,15 +186,15 @@ h6 {font-size: 16px;}
     display: grid;
     align-content: center;
 
-    padding-top: 50px;
-    padding-bottom: 50px;
+
+    padding-bottom: 75px;
     /*border: 1px dashed lightcoral;*/
 }
 
 #preview-shadow{
     background-color: var(--previewShadow);
-    width: 300px;
-    height: 160px;
+    width: 280px;
+    height: 180px;
     padding-left: 30px;
     padding-top: 30px;
 }
@@ -203,7 +203,7 @@ h6 {font-size: 16px;}
     width: 300px;
     border: 1.5px solid #17a2b8;
     background-color: var(--previewBg);
-    padding: 15px;
+    padding: 10px;
     position: relative;
 }
 
