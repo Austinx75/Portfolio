@@ -70,7 +70,7 @@ h6 {font-size: 16px;}
     display: grid;
     text-align: center;
     align-content: center;
-        /*border: 1px dashed lightcoral;*/
+    border: 1px dashed lightcoral;
     min-height: 10em;
 }
 
@@ -80,7 +80,7 @@ h6 {font-size: 16px;}
     margin-bottom:5px;
     height: 150px;
     width: 200px;
-    object-fit:contain;
+    object-fit:cover;
 }
 
 .intro-wrapper{
