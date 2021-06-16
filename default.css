@@ -11,6 +11,7 @@
 
     --themeDotBorder: #24292e;
     --previewBg:rgb(251, 249, 243, 0.8); 
+    --previewLine: #17a2b8;
 
     --previewShadow: #f0ead6;
     --buttonColor:black;
@@ -208,7 +209,7 @@ h6 {font-size: 16px;}
 
 #preview{
     width: 280px;
-    border: 1.5px solid #17a2b8;
+    border: 1.5px solid var(--previewLine);
     background-color: var(--previewBg);
     padding: 10px;
     position: relative;
@@ -218,7 +219,7 @@ h6 {font-size: 16px;}
     height: 7px;
     width: 7px;
     border-radius: 50%;
-    border: 1.5px solid #17a2b8;
+    border: 1.5px solid var(--previewLine);
     background-color: #fff;
     position: absolute;
 }
@@ -421,7 +422,7 @@ ul{
 
 #preview-contact{
     width: 200px;
-    border: 1.5px solid #17a2b8;
+    border: 1.5px solid var(--previewLine);
     background-color: var(--previewBg);
     padding: 20px;
     position: relative;
